@@ -1,0 +1,45 @@
+// CAPM Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM137",
+  slug: "capm",
+  name: "CAPM",
+  fullName: "Certified Associate in Project Management",
+  alias: "Certified Associate in Project Management",
+  family: "PMI",
+  category: "Professional certification",
+  subcategory: "Project management",
+  country: "Global",
+  region: "Global",
+  languages: ["English + translations"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "18-35",
+  targetUser: "Early-career professional",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ"],
+  adaptivity: "Linear",
+  sections: "150 questions",
+  scoringMode: "Pass/fail",
+  essayOrSpeaking: "No",
+  ipRisk: "Medium",
+  contentReuse: "business_operations",
+  uiEngine: "timed_objective",
+  monetizationPotential: "Medium",
+  tier: "Tier 5",
+  launchWave: "Wave 7",
+  themeColor: "#7C3AED",
+  themeColorDark: "#6D28D9",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;

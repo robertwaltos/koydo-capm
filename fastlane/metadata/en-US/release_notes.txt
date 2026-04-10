@@ -1,0 +1,5 @@
+Initial release of Koydo CAPM Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration
