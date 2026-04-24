@@ -20,7 +20,7 @@ export interface TopicManifest {
   title: string;
   icon: string;
   color: string;
-  questionTarget: number;
+  minQuestionCount: number;
   activityTypes: ActivityType[];
 }
 
@@ -44,7 +44,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Core Concepts",
     icon: "💡",
     color: "#7C3AED",
-    questionTarget: 700,
+    minQuestionCount: 700,
     activityTypes: ["multiple_choice", "scenario_based"],
   },
   {
@@ -53,7 +53,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Domain 1",
     icon: "📋",
     color: "#7C3AED",
-    questionTarget: 600,
+    minQuestionCount: 600,
     activityTypes: ["multiple_choice", "scenario_based"],
   },
   {
@@ -62,7 +62,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Domain 2",
     icon: "📊",
     color: "#059669",
-    questionTarget: 600,
+    minQuestionCount: 600,
     activityTypes: ["multiple_choice", "scenario_based"],
   },
   {
@@ -71,7 +71,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Domain 3",
     icon: "⚙️",
     color: "#D97706",
-    questionTarget: 500,
+    minQuestionCount: 500,
     activityTypes: ["multiple_choice", "scenario_based"],
   },
   {
@@ -80,7 +80,7 @@ export const CONTENT_MANIFEST: ContentManifest = {
     title: "Practice & Labs",
     icon: "🔬",
     color: "#DC2626",
-    questionTarget: 500,
+    minQuestionCount: 500,
     activityTypes: ["multiple_choice", "simulation"],
   }
   ],
